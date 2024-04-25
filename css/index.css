@@ -94,7 +94,7 @@ button {
 .menu-item .menu-link:focus {
   color: #404bbf;
 }
-.studio-menu-link:hover::after {
+.studio-menu-link::after {
   display: block;
   content: '';
   width: 48px;
@@ -102,6 +102,7 @@ button {
   border-radius: 2px;
   background: #404bbf;
   margin-top: 20px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -202,6 +203,16 @@ button {
 .advantages-list-item {
   width: calc((100% - 72px) / 4);
 }
+.advantages-icon {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+}
+.advantage-icon-title {
+  padding: 24px 102px;
+}
 .advantages-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -239,8 +250,11 @@ button {
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
-  height: 380px;
+  height: 428px;
   background-color: #fff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .team-title-text {
   padding: 32px 0;
@@ -261,7 +275,23 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
+.team-icon {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.team-list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #404bbf;
+}
+
 /*================OUR PORTFOLIO================*/
 .portfolio-title {
   font-weight: 700;
@@ -309,6 +339,13 @@ button {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+.footer-title-text {
+  margin-right: 120px;
+}
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -336,4 +373,27 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+}
+.footer-media-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.footer-icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #404bbf;
 }
