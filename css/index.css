@@ -79,28 +79,9 @@ button {
 }
 .page-menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
-.current-studio {
-  position: relative;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #404bbf;
-}
-.current-studio::after {
-  content: '';
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background: #404bbf;
-  border-radius: 2px;
 
-  transform: translateY(25px);
-}
 .menu-item {
   font-weight: 500;
   font-size: 16px;
@@ -113,6 +94,23 @@ button {
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
+}
+.current-studio {
+  position: relative;
+  color: #404bbf;
+}
+.current-studio::after {
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background: #404bbf;
+  border-radius: 2px;
+
+  transform: translateY(25px);
 }
 .adress-info {
   display: flex;
