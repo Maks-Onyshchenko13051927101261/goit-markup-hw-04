@@ -121,7 +121,7 @@ button {
   padding-bottom: 24px;
   transition: color cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts-link: {
+.contacts-link {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -142,6 +142,7 @@ button {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/hero-img.jpg);
   background-repeat: no-repeat;
+  background-position: left top;
   background-size: cover;
 }
 .solution-info {
@@ -294,6 +295,11 @@ button {
   height: 40px;
   border-radius: 50%;
   background-color: #404bbf;
+}
+.team-list-icon:hover,
+.team-list-icon:focus {
+  background-color: #31d0aa;
+  fill: #f4f4fd;
 }
 
 /*================OUR PORTFOLIO================*/
